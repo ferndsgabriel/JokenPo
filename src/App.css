@@ -2,7 +2,7 @@ body{
     background-image: url("../public/background.png");
     animation: skye 2s infinite  forwards;
     background-repeat: repeat-y;
-    overflow: hidden;
+
     font-family: 'Courier New', Courier, monospace;
     
 }
@@ -36,7 +36,7 @@ button, a {
     gap: 80px;
     max-width: 768px;
     margin: auto;
-   justify-content: center;
+    justify-content: center;
 }
 .infosGame{
     display: flex;
@@ -85,6 +85,7 @@ button, a {
     width: 100%;
     justify-content: space-between;
     height: 200px;
+    overflow: hidden;
 }
 
 .viewPlay img{
